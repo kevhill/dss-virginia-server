@@ -1,0 +1,14 @@
+{
+  "name": "dss-virginia-server",
+  "version": "0.0.0",
+  "description": "Server components for http://codefornrv.github.io/dss-virginia/",
+  "author": "Kevin Hill <hill.kevin@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "pg": "^4.5.2"
+  }
+}
