@@ -5,6 +5,9 @@ FROM node:argon
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
+# some npm modules need to be installed globally
+RUN npm install -g supervisor
+
 # Install app dependencies
 COPY package.json /usr/src/app/
 RUN npm install
